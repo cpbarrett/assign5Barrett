@@ -2,14 +2,14 @@ package Barrett.Assignment.Design.Patters.Factory;
 
 public class CharacterSpawns {
 
-    public SuperPerson getCharacter(String characterType) {
+    public SuperPerson spawnCharacter(String characterType, String name) {
         if(characterType == null) {
             return null;
         }
         if(characterType.equalsIgnoreCase("HERO")) {
-            return new Hero("hero");
-        } else if(characterType.equalsIgnoreCase("VILLIAN")) {
-            return new Villian("hero");
+            return new Hero(name);
+        } else if(characterType.equalsIgnoreCase("VILLAIN")) {
+            return new Villian(name);
         }
         return null;
     }
