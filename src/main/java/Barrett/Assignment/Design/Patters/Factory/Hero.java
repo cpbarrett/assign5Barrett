@@ -1,4 +1,5 @@
 package Barrett.Assignment.Design.Patters.Factory;
+
 import java.util.Random;
 
 public class Hero implements SuperPerson {
@@ -7,7 +8,7 @@ public class Hero implements SuperPerson {
     private int powerLevel;
     private String catchPhrase;
     private String alignment;
-    
+
     public Hero(String name) {
         this.name = name;
         this.hp = 100;
@@ -17,7 +18,7 @@ public class Hero implements SuperPerson {
     }
 
     @Override
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
@@ -27,7 +28,7 @@ public class Hero implements SuperPerson {
     }
 
     @Override
-    public int getPowerLevel(){
+    public int getPowerLevel() {
         return this.powerLevel;
     }
 
@@ -52,9 +53,9 @@ public class Hero implements SuperPerson {
     public int attack() {
         int sides = 6;
         Random d = new Random();
-        
+
         int roll = d.nextInt(sides) + 1 + this.getPowerLevel();
-        
+
         return roll;
     }
 

@@ -23,7 +23,8 @@ dependencies {
 
 application {
     // Define the main class for the application
-    mainClassName = 'Barrett.Assignment.Design.Patters.Factory.FactoryPatternDemo'
+    // mainClassName = 'Barrett.Assignment.Design.Patters.Factory.FactoryPatternDemo'
+    mainClassName = 'App.Simulation'
 }
 
 /////////////////////////////////////////////////////////////////////////

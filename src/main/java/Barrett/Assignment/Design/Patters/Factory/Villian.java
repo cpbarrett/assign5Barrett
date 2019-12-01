@@ -18,7 +18,7 @@ public class Villian implements SuperPerson {
     }
 
     @Override
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
@@ -28,7 +28,7 @@ public class Villian implements SuperPerson {
     }
 
     @Override
-    public int getPowerLevel(){
+    public int getPowerLevel() {
         return this.powerLevel;
     }
 
