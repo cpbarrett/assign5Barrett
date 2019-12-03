@@ -1,4 +1,4 @@
-package Barrett.Assignment.Design.Patters.Factory;
+package DesignPatterns.Factory;
 
 import java.util.Random;
 

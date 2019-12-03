@@ -1,12 +1,15 @@
 package App;
 
-import Barrett.Assignment.Design.Patters.Factory.FactoryPatternDemo;
-import Barrett.Assignment.Design.Patters.Mediator.MediatorPatternDemo;
+import DesignPatterns.Factory.FactoryPatternDemo;
+import DesignPatterns.Mediator.MediatorPatternDemo;
 
 public class Simulation {
 
     public static void main(String[] args) {
-        //FactoryPatternDemo.main(args);
+        System.out.println("Factory Pattern Design Demo:");
+        FactoryPatternDemo.main(args);
+        
+        System.out.println("Mediator Pattern Design Demo:");
         MediatorPatternDemo.main(args);
     }
 }

@@ -1,4 +1,4 @@
-package Barrett.Assignment.Design.Patters.Factory;
+package DesignPatterns.Factory;
 
 import java.util.Random;
 
@@ -13,7 +13,7 @@ public class Villian implements SuperPerson {
         this.name = name;
         this.hp = 50;
         this.powerLevel = 20;
-        this.catchPhrase = "I am a villian.";
+        this.catchPhrase = "I am a villain.";
         this.alignment = "villain";
     }
 

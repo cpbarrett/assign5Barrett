@@ -1,4 +1,4 @@
-package Barrett.Assignment.Design.Patters.Factory;
+package DesignPatterns.Factory;
 
 public class FactoryPatternDemo {
 

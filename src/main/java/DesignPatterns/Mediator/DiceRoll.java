@@ -1,4 +1,4 @@
-package Barrett.Assignment.Design.Patters.Mediator;
+package DesignPatterns.Mediator;
 
 import java.util.Random;
 

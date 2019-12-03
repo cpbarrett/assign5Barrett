@@ -1,6 +1,6 @@
-package Barrett.Assignment.Design.Patters.Mediator;
+package DesignPatterns.Mediator;
 
-import Barrett.Assignment.Design.Patters.Factory.SuperPerson;
+import DesignPatterns.Factory.SuperPerson;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -25,13 +25,15 @@ public class Battle {
     public Battle(String name) {
         this.name = name;
         this.round = 1;
+        this.heroList = new ArrayList<SuperPerson>();
+        this.villainList = new ArrayList<SuperPerson>();
     }
 
     public ArrayList<SuperPerson> getHeroList() {
         return this.heroList;
     }
 
-    public ArrayList<SuperPerson> getvillainList() {
+    public ArrayList<SuperPerson> getVillainList() {
         return this.villainList;
     }
 

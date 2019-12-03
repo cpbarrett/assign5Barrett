@@ -1,7 +1,7 @@
-package Barrett.Assignment.Design.Patters.Mediator;
+package DesignPatterns.Mediator;
 
-import Barrett.Assignment.Design.Patters.Factory.CharacterSpawns;
-import Barrett.Assignment.Design.Patters.Factory.SuperPerson;
+import DesignPatterns.Factory.CharacterSpawns;
+import DesignPatterns.Factory.SuperPerson;
 
 public class MediatorPatternDemo {
     public static void main(String[] args) {

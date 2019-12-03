@@ -1,4 +1,4 @@
-package Barrett.Assignment.Design.Patters.Factory;
+package DesignPatterns.Factory;
 
 public interface SuperPerson {
 
@@ -15,5 +15,9 @@ public interface SuperPerson {
     void setHp(int i);
     
     String getAlignment();
+
+    void setCatchPhrase(String string);
+
+    void setPowerLevel(int i);
     
 }
