@@ -1,13 +1,12 @@
 package DesignPatterns.Mediator;
 
-import static org.junit.Assert.*;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import DesignPatterns.Factory.CharacterSpawns;
 import DesignPatterns.Factory.SuperPerson;
+
+import org.junit.Test;
 
 public class BattleTest {
     @Test
@@ -20,8 +19,8 @@ public class BattleTest {
         CharacterSpawns spawn = new CharacterSpawns();
 
         //Heros
-        SuperPerson fighter = spawn.spawnCharacter("HERO", "fighter1");
-        SuperPerson healer = spawn.spawnCharacter("HERO", "fighter1");
+        final SuperPerson fighter = spawn.spawnCharacter("HERO", "fighter1");
+        final SuperPerson healer = spawn.spawnCharacter("HERO", "fighter1");
 
         //Villains        
         SuperPerson brute = spawn.spawnCharacter("VILLAIN", "brute1");

@@ -1,14 +1,11 @@
 package DesignPatterns.Factory;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 public class CharacterSpawnsTest {
 
-    /**
-     * Test method for {@link DesignPatterns.Factory.CharacterSpawns#spawnCharacter(java.lang.String, java.lang.String)}.
-     */
     @Test
     public void testSpawnCharacter() {
         CharacterSpawns spawnNew = new CharacterSpawns();
