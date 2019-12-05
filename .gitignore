@@ -51,5 +51,3 @@ gradle-app.setting
 
 /classes/
 /bin/
-
-.travis.yml

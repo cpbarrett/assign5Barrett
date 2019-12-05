@@ -38,7 +38,8 @@ public class MediatorPatternDemo {
             threeVsThree.attack(fighter1);
             threeVsThree.attack(fighter2);
             threeVsThree.castSpell(healer);
-
+            
+            System.out.println();
         }
     }
 }
